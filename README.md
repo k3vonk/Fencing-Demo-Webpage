@@ -9,8 +9,9 @@ To preview the webpage hosted on Google App Engine:
 - https://fencing-demo-webpage.ew.r.appspot.com/index.php
 
 # Home Page
-![Home Page](https://github.com/k3vonk/Fencing-Demo-Webpage/blob/main/website_images/Slider.png)
 The home page utilizes a slider to provide the most important and current information about the club. Currently, it iterates through 3 different slides. 
+![Home Page](https://github.com/k3vonk/Fencing-Demo-Webpage/blob/main/website_images/Slider.png)
+
 
 # News Cards
 ![News Cards](https://github.com/k3vonk/Fencing-Demo-Webpage/blob/main/website_images/carousel_news_cards.png)
