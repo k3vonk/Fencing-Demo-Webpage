@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(62,120,178);
+}
+
+/* NEWS SECTION */
+.news,
+.news-board{
+    margin-top: 5rem;
+    background-color: rgb(62,120,178);
+}
+
+hr{
+    border-top: 2px solid lightblue;
+    width: 80%;
+    margin-top: 0rem;
+    margin-bottom: .3rem;
+    left: 0rem;
+}

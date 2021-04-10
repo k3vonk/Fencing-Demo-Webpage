@@ -1,0 +1,31 @@
+.hero-content h1{
+    margin-top: 5rem;
+}
+
+.hero-heading{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.hero-content h5{
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: 300;
+    margin-bottom: 5rem;
+}
+
+.form-color{
+    background: #fafafa;
+}
+
+.form-group{
+    margin-top: 2rem;
+}
+
+label{
+    float: left;
+}
+
+.footer{
+width: 100%;
+}

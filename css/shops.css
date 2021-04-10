@@ -1,0 +1,172 @@
+.shop-image{
+    width: 100%; 
+    height: auto;
+}
+
+.goods{
+    margin-top: 4rem;
+    font-family: 'Lora', serif;
+}
+
+.goods h4{
+    text-align: center;
+}
+
+hr{
+    background-color: black;
+    width: 80px;
+}
+
+.equipments{
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+.equipments h6{
+    font-style: italic;
+    margin-top: 9px;
+    margin-left: 0;
+}
+
+.equipments .big img{
+    width: 90%;
+}
+
+.equipments .big h6{
+    margin-left: 14rem;
+}
+
+.equipments .medium{
+    margin-left: 40rem;
+}
+
+.equipments .medium .top{
+    position: relative;
+    margin-top: -40.5rem;
+}
+
+.equipments .medium img{
+    width: 86%;
+}
+
+.equipments .medium .bottom{
+    position: relative;
+    width: 330px;
+    margin-top: 1rem;
+}
+
+.equipments a:hover img{
+    opacity: 0.7;
+}
+
+.equipments img {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.d-flex .btn{
+    margin: 2rem 0;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 1200px) {
+    .equipments {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .equipments .big img{
+        width: 60%;
+    }
+
+    .equipments .medium{
+        margin-left: 28rem;
+    }
+
+    .equipments .medium .top{
+        width: 220px;
+        margin-top: -27.8rem;
+    }
+
+    .equipments .medium .bottom{
+        width: 220px;
+        margin-top: 0rem;
+        
+    }
+
+    .equipments {
+        margin-left: 0;
+    }
+
+    .equipments h6{
+        margin-left: 0;
+    }
+
+    .equipments .big h6{
+        margin-left: 8rem;
+    }
+
+    .d-flex .btn{
+        margin-left: 8.5rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .equipments{
+        margin-left: 3rem;
+    }
+    .equipments .big img{
+        width: 80%;
+    }
+
+    .equipments .big h6{
+        margin-left: 0;
+    }
+
+    .equipments .medium{
+        margin-left: 0;
+    }
+
+    .equipments .medium .top,.equipments .medium .bottom{
+        width: 30.6rem;
+        margin-top: 2rem;
+    }
+
+    .equipments .medium .bottom{
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .equipments{
+        margin-left: 4rem;
+    }
+    .equipments .big img{
+        width: 70%;
+    }
+
+    .equipments .medium .top,.equipments .medium .bottom{
+        width: 20rem;
+        margin-top: 0rem;
+    }
+
+    .equipments .medium .bottom{
+        margin-top: 0rem;
+    }
+
+    .d-flex .btn{
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .equipments .medium .top,.equipments .medium .bottom{
+        width: 14.2rem;
+    }
+}

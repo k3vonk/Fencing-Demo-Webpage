@@ -1,0 +1,168 @@
+/* LOCATION */
+.location{
+    background-color: white;
+}
+
+.location h2{
+    margin-top: 10px;
+    font-size: 55px;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+
+.location hr{
+    border-top: 1.5px solid lightgrey;
+}
+
+.location .marker{
+    margin-top: 18%;
+    margin-left: 30px;
+}
+
+.location address{
+    position: relative;
+    margin: -30px 50px 40px;
+    font-size: 20px;
+
+}
+
+.location .red{
+    width: 30%;
+    margin-left: 0;
+    margin-top: 20px;
+    border-top: 1.5px solid #FF6666;
+}
+
+.location iframe{
+    margin-left: -80px;
+    width: 800px;
+    height: 450px; 
+}
+
+.fa-envelope{
+    margin-left: -4px;
+    color: grey;
+}
+
+.fa-mobile-alt{
+    color: grey;
+}
+
+.fa-map-marker-alt{
+    color: grey;
+}
+
+/*---Media Queries --*/
+@media (max-width: 1200px) {
+
+    /* LOCATION */    
+    .location .marker{
+        margin-top: 9%;
+        margin-left: 30px;
+    }
+    
+    .location iframe{
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 600px;
+        height: 300px; 
+    
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    /* LOCATION */    
+    .location .marker{
+        margin-top: 0%;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .location .address{
+        display: inline-block;
+        clear: both;
+        margin: 0px 20px 80px ;
+    }
+
+    .location .hello{
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-bottom: -80px;
+        margin-right: 90px;
+    }
+
+    .location .phone{
+        margin-right: 80px;
+    }
+
+    .location .red{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        border-top: 1.5px solid transparent;
+    }
+    
+    .location iframe{
+        margin-left: 0px;
+        margin-top: -10px;
+        width: 700px;
+        height: 400px; 
+    }
+
+    .fa-envelope{
+        margin-left: 0px;
+        color: grey;
+    }
+}
+
+@media (max-width: 768px) {
+    /* LOCATION */    
+    .location .marker{
+        margin-top: 0%;
+        margin-left: 0px;
+    }
+
+    .location .address{
+        display: block;
+        clear: none;
+        margin: 0px 0px 10px ;
+    }
+
+    .location .hello{
+        margin-bottom: 5px;
+        margin-right: 0px;
+    }
+
+    .location .phone{
+        margin-right: 0px;
+    }
+
+    .location .red{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        border-top: 1.5px solid transparent;
+    }
+    
+    .location iframe{
+        margin-left: 0px;
+        margin-top: -10px;
+        width: 100%;
+        height: 100%; 
+    }
+}
+
+/* MOBILE DO LATER */
+@media (max-width: 576px) {
+    .location iframe{
+        margin-left: 0px;
+        margin-top: -10px;
+        width: 100%;
+        height: 100%; 
+    }
+}
+
+
