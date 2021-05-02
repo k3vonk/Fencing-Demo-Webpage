@@ -5,9 +5,6 @@ A 3rd year web design project with the theme of Fencing.
 UCD Fencing has been lacking in terms of providing public information through the use of a web page. 
 As a result, my idea was to design a web page with a fresh new look that the club can utilize. The design provides a generic approach in which the club can later adapt by adding their own favorite photos, and flavored texts. 
 
-To preview the webpage hosted on Google App Engine:
-- https://fencing-demo-webpage.ew.r.appspot.com/index.php
-
 # Home Page
 ![Home Page](https://github.com/k3vonk/Fencing-Demo-Webpage/blob/main/website_images/Slider.png)
 The home page utilizes a slider to provide the most important and current information about the club. Currently, it iterates through 3 different slides. 
